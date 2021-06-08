@@ -52,6 +52,9 @@ def test_sum_series_3_2_3():
 def test_sum_series_3_5_2():
     assert sum_series(3,5,1)==7
 
+def test_sum_series_4_7_12():
+    assert sum_series(4,7,12)==50
+
 # test if there is no a & b 
 def test_sum_series_3():
     assert sum_series(3)==2
